@@ -2,6 +2,7 @@
 #define VERYMAINWINDOW_H
 
 #include <QMainWindow>
+#include <QListWidget>
 #include "parsefile.h"
 
 class VeryMainWindow : public QMainWindow
@@ -13,6 +14,7 @@ public:
 
 private:
     ParseFile *file;
+    QListWidget *trass;
 
 
 signals:

@@ -13,12 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
     verymainwindow.cpp \
-    parsefile.cpp
+    parsefile.cpp \
+    settingwidget.cpp
 
-HEADERS  += mainwindow.h \
+HEADERS  += \
     verymainwindow.h \
-    parsefile.h
+    parsefile.h \
+    settingwidget.h
 
 FORMS    +=
